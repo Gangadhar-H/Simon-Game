@@ -46,7 +46,7 @@ function btnPressed() {
 
     checkAns(userSeq.length - 1);
 }
-
+// Check answer function
 function checkAns(idx) {
     if (userSeq[idx] === gameSeq[idx]) {
         if (userSeq.length == gameSeq.length) {
